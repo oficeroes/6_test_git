@@ -11,7 +11,8 @@ def check():
     cur.execute("SELECT * FROM books")
     data = cur.fetchall()
     if data:
-        print(globals(i))
+        for i in data :
+            print(i)
     else:
         print('数据库内容是空的')
     i += 1
