@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46801877-70a5-4cfc-b06c-e72348757e2f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/study_tkinter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/输入_Tkinter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/New python 6 test git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/New python 6 test git.iml" afterDir="false" />
+    <list default="true" id="46801877-70a5-4cfc-b06c-e72348757e2f" name="更改" comment="Tkinter">
+      <change afterPath="$PROJECT_DIR$/TkinterAndSQLTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.TkinterAndSQLTest.executor": "Run",
     "Python.study_tkinter.executor": "Run",
     "Python.tkinter.executor": "Run",
     "Python.输入_Tkinter.executor": "Run",
@@ -77,9 +76,22 @@
       <updated>1780234548319</updated>
       <workItem from="1780234549343" duration="1000" />
     </task>
+    <task id="LOCAL-00001" summary="Tkinter">
+      <option name="closed" value="true" />
+      <created>1780289999571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780289999571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tkinter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tkinter" />
   </component>
 </project>
