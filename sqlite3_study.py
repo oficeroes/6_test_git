@@ -1,6 +1,5 @@
 import sqlite3
 import tkinter as tk
-glob(i)= 0
 def add_books_python():
     cur.execute("INSERT INTO books VALUES ('Python','小明')")
     conn.commit()
@@ -15,7 +14,7 @@ def check():
             print(i)
     else:
         print('数据库内容是空的')
-    i += 1
+    # i += 1
 
 root = tk.Tk()
 root.geometry("300x500")
