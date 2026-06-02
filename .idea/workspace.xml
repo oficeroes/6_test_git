@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46801877-70a5-4cfc-b06c-e72348757e2f" name="更改" comment="Tkinter">
-      <change afterPath="$PROJECT_DIR$/TkinterAndSQLTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlite3_study.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "oficeroes"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oficeroes&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/oficeroes/6_test_git.git",
-    "accountId": "1f4e495a-c67f-4804-b333-be7403bc7af3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oficeroes/6_test_git.git&quot;,
+    &quot;accountId&quot;: &quot;1f4e495a-c67f-4804-b333-be7403bc7af3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -50,6 +50,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.TkinterAndSQLTest.executor": "Run",
+    "Python.sqlite3_study.executor": "Run",
     "Python.study_tkinter.executor": "Run",
     "Python.tkinter.executor": "Run",
     "Python.输入_Tkinter.executor": "Run",
@@ -84,11 +85,46 @@
       <option name="project" value="LOCAL" />
       <updated>1780289999571</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tkinter">
+      <option name="closed" value="true" />
+      <created>1780362299284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780362299284</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tkinter">
+      <option name="closed" value="true" />
+      <created>1780362448197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780362448197</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tkinter">
+      <option name="closed" value="true" />
+      <created>1780362805095</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780362805095</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tkinter" />
