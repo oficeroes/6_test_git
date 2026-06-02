@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46801877-70a5-4cfc-b06c-e72348757e2f" name="更改" comment="Tkinter">
-      <change afterPath="$PROJECT_DIR$/class_test_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testtt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_sql_WHERE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlite3_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqlite3_study.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +54,21 @@
     "Python.TkinterAndSQLTest.executor": "Run",
     "Python.class_test_6.executor": "Run",
     "Python.sqlite3_study.executor": "Run",
+    "Python.study_sql_WHERE.executor": "Run",
     "Python.study_tkinter.executor": "Run",
     "Python.testtt.executor": "Run",
     "Python.tkinter.executor": "Run",
     "Python.输入_Tkinter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -120,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780366292260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="yes">
+      <option name="closed" value="true" />
+      <created>1780403743429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780403743429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +155,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tkinter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tkinter" />
+    <MESSAGE value="yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="yes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/New_python_6_test_git$sqlite3_study.coverage" NAME="sqlite3_study 覆盖结果" MODIFIED="1780404762244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_python_6_test_git$study_sql_WHERE.coverage" NAME="study_sql_WHERE 覆盖结果" MODIFIED="1780405772418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
