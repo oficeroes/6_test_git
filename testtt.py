@@ -1,43 +1,29 @@
+"""SQLite employee-table exercise using temporary, predictable sample data."""
+
 import sqlite3
 
-conn = sqlite3.connect('company.db')
 
-cursor = conn.cursor()
+def main():
+    with sqlite3.connect(":memory:") as connection:
+        connection.execute(
+            "CREATE TABLE employees (id INTEGER PRIMARY KEY, name TEXT NOT NULL, salary REAL NOT NULL)"
+        )
+        connection.executemany(
+            "INSERT INTO employees (name, salary) VALUES (?, ?)",
+            [("Lin", 4800), ("Zhou", 6200), ("Chen", 7500)],
+        )
+        connection.execute("UPDATE employees SET salary = ? WHERE id = ?", (5500, 1))
 
-cursor.execute('''
+        print("薪资大于 5000 的员工：")
+        for employee in connection.execute(
+            "SELECT id, name, salary FROM employees WHERE salary > ? ORDER BY salary DESC",
+            (5000,),
+        ):
+            print(employee)
 
-   CREATE TABLE IF NOT EXISTS employees (
+        connection.execute("DELETE FROM employees WHERE id = ?", (2,))
+        print("删除 id=2 后的员工数量：", connection.execute("SELECT COUNT(*) FROM employees").fetchone()[0])
 
-       id id INTEGER PRIMARY KEY,                    
 
-       name TEXT NOT NULL,
-
-       salary REAL
-
-   )
-
-''')
-
-cursor.execute("CREATE TABLE IF NOT EXISTS employees('name TEXT,salary TEXT')")
-
-cursor.executemany('INSERT INTO employees VALUES(?,?,?)')
-
-conn.commit()
-
-print("薪资大于5000的员工：")
-
-cursor.execute('SELECT * FROM employees WHERE > 5000')
-
-for row in cursor:
-
-   print(row)
-
-cursor.execute('  UPDATE employees SET salary = 5500 WHERE id = 1')
-
-conn.commit()
-
-cursor.execute('DELETE FROM employees WHERE id = 2')
-
-conn.commit()
-
-conn.close()
+if __name__ == "__main__":
+    main()
